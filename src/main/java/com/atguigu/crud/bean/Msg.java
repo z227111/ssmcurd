@@ -23,6 +23,7 @@ public class Msg {
         return result;
     }
 
+
     public static Msg fail(){
         Msg result = new Msg();
         result.setCode(200);
